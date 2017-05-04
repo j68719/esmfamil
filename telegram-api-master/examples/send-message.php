@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\ClientException;
 use \unreal4u\TelegramAPI\TgLog;
 use \unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
 
-$tgLog = new TgLog(BOT_TOKEN);
+$tgLog = new TgLog("322361577:AAGhXi4Fl9oGcw9dXHpbKnH7DyDcy2lBmSI");
 
 $sendMessage = new SendMessage();
 $sendMessage->chat_id = A_USER_CHAT_ID;
